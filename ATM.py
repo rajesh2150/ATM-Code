@@ -25,15 +25,16 @@ if n==b:
           print("Amount Must Be Greater Than 0")
           print("------------------------------------")
         elif d>a:  
-          print("------------------------------------")
+           print("------------------------------------")
            print("Insufficient Of Balance")
-            print("------------------------------------")
+           print("------------------------------------")
         elif d>0 and d<=a:
           print("------------------------------------")
           print("Your amount is Debited of ",d);
           print('Welcome to Our ATM')
         print("---------------------------------------")
     else:
+   
       print('-------------------------')
       print("Invalid Option Entered")
       print('-------------------------')
