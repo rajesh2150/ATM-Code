@@ -1,8 +1,9 @@
-pin=int(0000);
+pin=int(0000);#pin number
+myname='rajesh' #user name
 user_name=input("Enter your name :")
 user_pin=int(input("Enter Your pin :"));
 balance=int(10000);
-if pin==user_pin:
+if pin==user_pin and myname==user_name: #validation
     print('')
     print("Welocome",user_name)
     option=int(input(" 1.Balance 2.Send :"));
